@@ -1,0 +1,64 @@
+#board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#reset {
+    background: linear-gradient(to right, #11998E, #38EF7D); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;  /* Rounded corners */
+    transition: background 0.5s; /* Smooth transition effect */
+}
+
+#reset:hover {
+    background: linear-gradient(to right, #38EF7D, #11998E);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #11998E, #38EF7D); 
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 12px;  
+}
+
+body {
+    background-color: #11998E; /* Fallback color */
+    background: linear-gradient(to right, #11998E, #38EF7D); 
+}
+
+#resetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
